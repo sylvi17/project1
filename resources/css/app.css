@@ -1,0 +1,83 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/theme";
+@import "tailwindcss/utilities";
+
+@plugin "flowbite/plugin";
+
+/* Custom style buatanmu */
+.beranda-greet {
+    background-color: #1d0d95; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.kontak-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.kontak-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.kontak-list {
+    list-style: none;
+    padding: 0;
+}
+
+.kontak-list li {
+    background: #f1f1f1;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.kontak-list li strong {
+    color: #007bff; 
+}
+
+.profil-container {
+    max-width: 450px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profil-title {
+    color: #444;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.profil-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+}
+
+.profil-list li {
+    margin: 12px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 4px solid #007bff;
+    border-radius: 6px;
+}
+
+.profil-list li strong {
+    color: #007bff;
+}
